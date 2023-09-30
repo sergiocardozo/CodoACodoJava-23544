@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg px-5">
             <div class="container-fluid contenido">
                 <a href="#" class="navbar-brand">
-                    <img src="../TPIntegrador/assets/img/codoacodo.png" alt="logo" width="90em"
+                    <img src="./assets/img/codoacodo.png" alt="logo" width="90em"
                         class="d-inline-block align-text-top">
                 </a>
                 <a class="navbar-brand text-white fw-bold" href="">Conf Bs As</a>
@@ -30,14 +30,13 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <div class="direcciones fw-bold">
-                            <a class="nav-link text-white" href="">La Conferencia</a>
-                            <a class="nav-link text-white" href="">Los Oradores</a>
+                            <a class="nav-link text-white" href="#conferencia">La Conferencia</a>
+                            <a class="nav-link text-white" href="#oradores">Los Oradores</a>
                             <a class="nav-link text-white" href="">El lugar y la fecha</a>
-                            <a class="nav-link text-white" href="">Conviertete en orador</a>
+                            <a class="nav-link text-white" href="#registrate">Conviertete en orador</a>
                             <a class="nav-link text-success" href="">Comprar tickets</a>
                         </div>
                     </ul>
@@ -46,7 +45,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="conferencia">
         <div class="d-flex">
 
             <div class="col">
@@ -54,13 +53,13 @@
                 <div id="carouselExampleAutoplaying" class=" carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="img-fluid d-block w-100" src="../TPIntegrador/assets/img/ba1.jpg" alt="">
+                            <img class="img-fluid d-block w-100" src="./assets/img/ba1.jpg" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img class="img-fluid d-block w-100" src="../TPIntegrador/assets/img/ba2.jpg" alt="">
+                            <img class="img-fluid d-block w-100" src="./assets/img/ba2.jpg" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img class="img-fluid d-block w-100" src="../TPIntegrador/assets/img/ba3.jpg" alt="">
+                            <img class="img-fluid d-block w-100" src="./assets/img/ba3.jpg" alt="">
                         </div>
                     </div>
 
@@ -92,7 +91,7 @@
         </div>
     </main>
 
-    <section>
+    <section id="oradores">
         <div class="text-center text-uppercase pt-2">
             <p class=" fw-semibold">Conoce a los</p>
             <h2 class="fw-bolder fs-2">oradores</h2>
@@ -100,7 +99,7 @@
 
         <div class="d-flex justify-content-center pt-2">
             <div class="card me-4" style="width: 18rem;">
-                <img src="../TPIntegrador/assets/img/steve.jpg" alt="steve">
+                <img src="./assets/img/steve.jpg" alt="steve">
 
                 <div class="card-body">
                     <small class="badge text-bg-warning">JavaScript</small>
@@ -115,7 +114,7 @@
             </div>
 
             <div class="card me-4" style="width: 18rem;">
-                <img src="../TPIntegrador/assets/img/bill.jpg" alt="Bill">
+                <img src="./assets/img/bill.jpg" alt="Bill">
 
                 <div class="card-body">
                     <small class="badge text-bg-warning">JavaScript</small>
@@ -130,7 +129,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="../TPIntegrador/assets/img/ada.jpeg" alt="ada">
+                <img src="./assets/img/ada.jpeg" alt="ada">
 
                 <div class="card-body">
                     <small class="badge text-bg-secondary">Negocios</small>
@@ -152,7 +151,7 @@
         <div class="card mt-5 bg-dark border-0" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-md-6">
-                    <img class="img-fluid d-block w-100" src="../TPIntegrador/assets/img/honolulu.jpg" alt="">
+                    <img class="img-fluid d-block w-100" src="./assets/img/honolulu.jpg" alt="">
 
                 </div>
                 <div class="col-md-6">
@@ -174,12 +173,12 @@
 
     </article>
 
-    <section>
-        <div class="text-center text-uppercase pt-2">
+    <section id="registrate">
+        <div class="text-center text-uppercase pt-3">
             <p class=" fw-semibold">Conviérte en un</p>
             <h2 class="fw-bolder fs-2">orador</h2>
         </div>
-        <p class="text-center">Anotate como orador para dar una <span>charla ignite</span>. Cuentanos de que quieres
+        <p class="text-center mt-1">Anotate como orador para dar una <span>charla ignite</span>. Cuentanos de que quieres
             hablar!</p>
 
 

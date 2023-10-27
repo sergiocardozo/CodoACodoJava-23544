@@ -1,11 +1,8 @@
 body,html {
     margin: 0;
     padding: 0;
-}
-
-body {
     overflow-x: hidden;
-    
+
 }
 p,
 h2 {
@@ -98,4 +95,9 @@ footer ul li a {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.label_pagar {
+    background-color: #CCE5FF;
+    color: #214e68;
 }

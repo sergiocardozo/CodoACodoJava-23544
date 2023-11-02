@@ -2,9 +2,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-}
-
-body {
     overflow-x: hidden;
 
 }
@@ -127,4 +124,5 @@ footer ul li a {
     background-color: gold;
     transition: transform 0.3s;
     transform: scale(0.9);
+
 }

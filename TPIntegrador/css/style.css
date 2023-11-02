@@ -1,9 +1,11 @@
-body,html {
+body,
+html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 
 }
+
 p,
 h2 {
     margin: 0 !important;
@@ -46,6 +48,7 @@ ul a:hover {
 .carousel-item {
     height: 40rem;
 }
+
 .carousel-item img {
     position: relative;
     filter: brightness(0.3);
@@ -97,7 +100,29 @@ footer ul li a {
     }
 }
 
-.label_pagar {
-    background-color: #CCE5FF;
-    color: #214e68;
+/* COMPRAR TICKETS */
+
+.card {
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card_opciones:hover{
+    cursor: pointer;
+    background-color: rgb(20, 85, 226);
+    transition: transform 0.3s;
+    transform: scale(0.9);
+    color: white;
+}
+
+.card-options{
+    transition: transform 0.3s;
+    transform: scale(0.9);
+    color: white;
+}
+.card_opciones_junior:hover {
+    cursor: pointer;
+    background-color: gold;
+    transition: transform 0.3s;
+    transform: scale(0.9);
+
 }

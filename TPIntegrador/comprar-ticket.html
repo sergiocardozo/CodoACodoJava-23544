@@ -53,10 +53,12 @@
         </nav>
     </header>
 
-    <section id="oradores" class="mt-4">
+    <section id="ticket" class="mt-4">
 
         <div class="row pt-2 justify-content-center ">
-            <div id="card-estudiante" class="card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary" style="width: 18rem;">
+            <div id="card-estudiante"
+                class="card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary"
+                style="width: 18rem;">
 
                 <div class=" card-body text-center">
 
@@ -68,7 +70,9 @@
                 </div>
             </div>
 
-            <div id="card-trainee" class=" card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary" style="width: 18rem;">
+            <div id="card-trainee"
+                class=" card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary"
+                style="width: 18rem;">
 
 
 
@@ -81,7 +85,10 @@
                 </div>
             </div>
 
-            <div id="card-junior" class="card-options card_opciones_junior col-md-4 col-12 card me-4 mt-3 border border-warning" style="width: 18rem;">
+            <div id="card-junior"
+                class="card-options card_opciones_junior col-md-4 col-12 card me-4 mt-3 border border-warning"
+                style="width: 18rem;">
+
 
 
 
@@ -107,32 +114,28 @@
             </div>
 
             <div class="row pt-2 container justify-content-center">
-                <div class="col-md-9 col-12 card border-0">
+                <div class="col-md-9 col-12 card card-form border-0">
 
                     <div class="card-body">
 
                         <form id="formTicket" action="">
                             <div class="row justify-content-center">
                                 <div class="col-md-6 mt-3">
-                                    <input id="txtNombre" class=" form-control form-control-lg" type="text" placeholder="Nombre"
+                                    <input id="txtNombre" class=" form-control form-control-lg" type="text"
+                                        placeholder="Nombre" aria-label=".form-control-lg example">
 
-                                        aria-label=".form-control-lg example">
                                 </div>
                                 <div class="col-md-6 mt-3">
 
-
-                                    <input id="txtApellido" class="form-control form-control-lg" type="text" placeholder="Apellido"
-
-                                        aria-label=".form-control-lg example">
+                                    <input id="txtApellido" class="form-control form-control-lg" type="text"
+                                        placeholder="Apellido" aria-label=".form-control-lg example">
                                 </div>
                             </div>
 
                             <div class="row justify-content-center">
                                 <div class="col-md-12 mt-3">
-
-                                    <input id="txtCorreo" class=" form-control form-control-lg" type="email" placeholder="Correo"
-
-                                        aria-label=".form-control-lg example">
+                                    <input id="txtCorreo" class=" form-control form-control-lg" type="email"
+                                        placeholder="Correo" aria-label=".form-control-lg example">
                                 </div>
                             </div>
 
@@ -144,7 +147,8 @@
                                 </div>
                                 <div class="col-md-6 mt-3">
                                     <label for="selectCategoria">Categoría</label>
-                                    <select id="selectCategoria" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                                    <select id="selectCategoria" class="form-select form-select-lg mb-3"
+                                        aria-label="Large select example">
                                         <option selected disabled>Selecciona una opción</option>
                                         <option value="estudiante">Estudiante</option>
                                         <option value="trainee">Trainee</option>
@@ -155,21 +159,33 @@
                             </div>
 
 
-                            <div class="row justify-content-center bg-primary">
-                                <div class="col-md-12 label_pagar fw-bold">
-                                    <label class="pt-3 pb-3 mb-2" for="">Total a Pagar: $ <span
-                                            id="total">0</span></label>
+
+                            <div class="row">
+                                <div class="col-md-12 fw-bold">
+
+                                    <div id="error" class="alert alert-danger" role="alert">
+                                    </div>
 
 
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-12 fw-bold">
+                                    <div id="success" class="alert alert-primary" role="alert">
+                                        Total a Pagar: $ <span id="total">0</span>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row mt-4 justify-content-center">
-                                <button id="btnBorrar" class="col-md-5 fs-5 btn me-2 mt-2 text-white fw-bolder"
-                                    type="submit">Borrar</button>
+                                <button id="btnBorrar" class="col-md-5 fs-5 btn me-2 mt-2 text-white fw-bolder">
+                                    Borrar
+                                </button>
                                 <button id="btnResumen" class="col-md-5 fs-5 btn me-2 mt-2 text-white fw-bolder"
                                     type="submit">Resumen</button>
 
                             </div>
+
                         </form>
                     </div>
                 </div>

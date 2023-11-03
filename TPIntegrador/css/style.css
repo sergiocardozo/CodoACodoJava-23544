@@ -77,8 +77,10 @@ p span {
 }
 
 /* FORM */
-form button {
+#btnResumen, #btnBorrar, #btnOrador{
     background: #96C93E !important;
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 /* FOOTER */
@@ -105,7 +107,7 @@ footer ul li a {
 
 /* COMPRAR TICKETS */
 
-.card {
+#ticket .card, .card-form, #oradores .card {
     box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -120,7 +122,7 @@ footer ul li a {
 .card-options{
     transition: transform 0.3s;
     transform: scale(0.9);
-    color: white;
+    color: white !important;
 }
 .card_opciones_junior:hover {
     cursor: pointer;
@@ -128,3 +130,4 @@ footer ul li a {
     transition: transform 0.3s;
     transform: scale(0.9);
 }
+

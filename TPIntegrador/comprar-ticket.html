@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Tickets</title>
+    <link rel="icon" href="codoacodo.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./js/scripts.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg px-5 sticky-top">
+            <div class="container-fluid contenido">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./assets/img/codoacodo.png" alt="logo" width="90em" class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand text-white fw-bold" href="">Conf Bs As</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <div class="direcciones fw-bold">
+
+                            <a class="nav-link disabled text-secondary" href="#conferencia" aria-disabled="true">La
+                                Conferencia</a>
+                            <a class="nav-link disabled text-secondary" href="#oradores" aria-disabled="true">Los
+                                Oradores</a>
+                            <a class="nav-link disabled text-secondary" href="" aria-disabled="true">El lugar y la
+                                fecha</a>
+                            <a class="nav-link text-white" href="index.html">Conviertete en orador</a>
+                            <a class="nav-link text-success" href="comprar-ticket.html">Comprar tickets</a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="ticket" class="mt-4">
+
+        <div class="row pt-2 justify-content-center ">
+            <div id="card-estudiante"
+                class="card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary"
+                style="width: 18rem;">
+
+                <div class=" card-body text-center">
+
+
+                    <h2 class="card-title mt-2">Estudiante</h2>
+                    <h4 class="mt-4 fw-normal">Tienen un descuento</h4>
+                    <h3 class="mt-4 fw-bold">80%</h3>
+                    <p class="mt-4 mb-2 fw-medium text-body-secondary">* presentar documentación</p>
+                </div>
+            </div>
+
+            <div id="card-trainee"
+                class=" card-options card_opciones col-md-4 col-12 card me-4 mt-3 border border-primary"
+                style="width: 18rem;">
+
+
+
+                <div class="card-body text-center">
+
+                    <h2 class="card-title mt-2">Trainee</h2>
+                    <h4 class="mt-4 fw-normal">Tienen un descuento</h4>
+                    <h3 class="mt-4 fw-bold">50%</h3>
+                    <p class="mt-4 mb-2 fw-medium text-body-secondary">* presentar documentación</p>
+                </div>
+            </div>
+
+            <div id="card-junior"
+                class="card-options card_opciones_junior col-md-4 col-12 card me-4 mt-3 border border-warning"
+                style="width: 18rem;">
+
+
+
+
+                <div class="card-body text-center">
+
+                    <h2 class="card-title mt-2">Junior</h2>
+                    <h4 class="mt-4 fw-normal">Tienen un descuento</h4>
+                    <h3 class="mt-4 fw-bold">15%</h3>
+                    <p class="mt-4 mb-2 fw-medium text-body-secondary">* presentar documentación</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="registrate">
+        <div class="container">
+
+            <div class="text-center text-uppercase pt-3">
+                <p class=" fw-semibold">venta</p>
+                <h2 class="fw-bolder fs-2">valor del ticket $200</h2>
+            </div>
+
+            <div class="row pt-2 container justify-content-center">
+                <div class="col-md-9 col-12 card card-form border-0">
+
+                    <div class="card-body">
+
+                        <form id="formTicket" action="">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 mt-3">
+                                    <input id="txtNombre" class=" form-control form-control-lg" type="text"
+                                        placeholder="Nombre" aria-label=".form-control-lg example">
+
+                                </div>
+                                <div class="col-md-6 mt-3">
+
+                                    <input id="txtApellido" class="form-control form-control-lg" type="text"
+                                        placeholder="Apellido" aria-label=".form-control-lg example">
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-12 mt-3">
+                                    <input id="txtCorreo" class=" form-control form-control-lg" type="email"
+                                        placeholder="Correo" aria-label=".form-control-lg example">
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 mt-3">
+                                    <label>Cantidad</label>
+                                    <input id="inputCantidad" class=" form-control form-control-lg" type="number"
+                                        placeholder="Cantidad" aria-label=".form-control-lg example">
+                                </div>
+                                <div class="col-md-6 mt-3">
+                                    <label for="selectCategoria">Categoría</label>
+                                    <select id="selectCategoria" class="form-select form-select-lg mb-3"
+                                        aria-label="Large select example">
+                                        <option selected disabled>Selecciona una opción</option>
+                                        <option value="estudiante">Estudiante</option>
+                                        <option value="trainee">Trainee</option>
+                                        <option value="junior">Junior</option>
+
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-12 fw-bold">
+
+                                    <div id="error" class="alert alert-danger" role="alert">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 fw-bold">
+                                    <div id="success" class="alert alert-primary" role="alert">
+                                        Total a Pagar: $ <span id="total">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 justify-content-center">
+                                <button id="btnBorrar" class="col-md-5 fs-5 btn me-2 mt-2 text-white fw-bolder">
+                                    Borrar
+                                </button>
+                                <button id="btnResumen" class="col-md-5 fs-5 btn me-2 mt-2 text-white fw-bolder"
+                                    type="submit">Resumen</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="p-2 mt-4">
+        <div class="container-fluid pt-3 mt-2">
+
+            <ul class="nav justify-content-around text-white fw-bold pb-3 ">
+                <li class="nav-item"><a href="#" class="px-2">Preguntas Frecuentes</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Contactanos</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Prensa</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Conferencias</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Terminos y condiciones</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Privacidad</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Estudiantes</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
